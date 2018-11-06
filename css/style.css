@@ -1,0 +1,66 @@
+.barra {
+  background-color: grey;  
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 7px;
+}
+
+.barradiv {
+  background-color: #ffc107;  
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 5px;
+}
+
+.s1 {
+   -webkit-box-shadow: 0 28px 16px -26px rgba(0, 0, 0);
+   -moz-box-shadow: 0 28px 16px -26px rgba(0, 0, 0);
+   box-shadow: 0 28px 16px -26px rgba(0, 0, 0);
+}
+
+.card {
+    border: none;
+}
+
+.card:hover .barra{
+background-color: #ffc107;
+}
+
+.bg-black {
+  background-color: black;
+}
+
+.nav-text {
+  font-family: 'Permanent Marker', cursive;
+  color: white;
+}
+
+a.card,
+a.card:hover {
+  color: #212529;
+  text-decoration: none;
+}
+
+a.classe1:link {
+  color: black;
+}
+
+.alinhar{
+  float:right;
+}
+
+.google-maps {
+        position: relative;
+        padding-bottom: 75%; // This is the aspect ratio
+        height: 0;
+        overflow: hidden;
+    }
+    .google-maps iframe {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100% !important;
+        height: 100% !important;
+    }
